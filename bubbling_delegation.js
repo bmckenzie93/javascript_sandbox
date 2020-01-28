@@ -12,18 +12,19 @@
 
 // function runEvent(e) {
 //   console.log(`Event: ${e.target.classList['0']}`);
+// // }
+
+
+
+// // EVENT DELEGATION
+
+// const cardAction = document.querySelector('.card-action');
+
+// cardAction.addEventListener('click', delItem);
+
+// function delItem(e) {
+// if(e.target.parentElement.classList.contains('delete-item')) {
+//   e.target.parentElement.parentElement.remove();
 // }
-
-
-
-// EVENT DELEGATION
-
-document.querySelector('.collection-item').addEventListener('click', del);
-
-function del(e) {
-  if(e.target.childElement.classList.contains('delete-item')){
-    e.target.parentElement.remove();
-  } 
+// }
   
-  console.log(e.target);
-}

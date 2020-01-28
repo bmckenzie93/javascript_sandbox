@@ -20,4 +20,12 @@ Traversey Media: Udemy Course | Javascript Sandbox
 
 # 1/17/20 Friday (10:30pm) {
   I have work early in the AM, Im glad i got to at least touch javascript today. Tune in next time on my road to Web Developer Journy!
+} 
+
+# 1/27/20 Monday (10:00pm) {
+  The only way I can save myself and my family is to code
+}
+
+# 1/27/20 Monday (11:55pm) {
+  I worked with local storage today which can only hold strings. You can setItem to local or session storage and you can getItem from it. To turn the string held in local storage into an object you use JSON.parse, and to turn the object back into a string you use JSON.stringify. Dont forget to prevent the default on a submit event. 
 }
